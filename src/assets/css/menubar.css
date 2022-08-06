@@ -1,0 +1,8 @@
+/* NAV BAR */
+.cstm-navbar {
+    background-color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-item > a {
+    color: #ffffff;
+}
