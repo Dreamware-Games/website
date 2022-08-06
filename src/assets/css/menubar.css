@@ -1,0 +1,8 @@
+/* NAV BAR */
+.cstm-bg {
+    background-color: #000;
+}
+
+.nav-link .active {
+    color: #fff !important;
+}
