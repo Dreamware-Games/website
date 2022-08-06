@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Container, Nav, Navbar, NavItem } from 'react-bootstrap'
 
 import '../assets/css/menubar.css'
-import logo from '../assets/images/logo_white_512x512.png'
+import logo from '../assets/images/logo_white_205x100.png'
 
 export const MenuBar = () => {
 
@@ -15,8 +15,8 @@ export const MenuBar = () => {
                 <Navbar.Brand className='navbar-brand' as={Link} to='/' onClick={() => setExpanded(false)}>
                     <img
                         src={logo}
-                        width='64'
-                        height='64'
+                        width='102.5'
+                        height='50'
                         className='d-inline-block align-top'
                         alt='Dreamware Games'
                     />
