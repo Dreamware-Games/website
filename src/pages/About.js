@@ -2,11 +2,11 @@ import React from 'react';
 
 import { Container } from 'react-bootstrap'
 
-export const About = () => {
 
+export const About = () => {
     return (
-        <Container>
-            About
+        <Container className='mt-2'>
+            One man indie game development company.
         </Container>
     )
 }

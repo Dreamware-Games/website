@@ -3,7 +3,6 @@ import React from 'react';
 import { Route, Routes } from 'react-router'
 import { BrowserRouter as Router } from 'react-router-dom'
 
-
 import { Home } from './pages/Home'
 import { Games } from './pages/Games'
 import { About } from './pages/About'
