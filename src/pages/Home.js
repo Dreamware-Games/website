@@ -2,13 +2,13 @@ import React from 'react';
 
 import { Container } from 'react-bootstrap'
 
-import logo from '../assets/images/logo_black_512x512.png'
+import logo from '../assets/images/logo_black_512x200.png'
 
 export const Home = () => {
 
     return (
         <>
-            <Container className='center'>
+            <Container className='mt-5 center'>
                 <img
                     src={logo}
                     alt='Dreamware Games'
