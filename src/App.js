@@ -9,7 +9,7 @@ import { About } from './pages/About'
 import { NotFound } from './pages/NotFound'
 
 import { MenuBar } from './components/Menubar'
-
+import { Footer } from './components/Footer'
 
 export const App = () => {
 
@@ -24,6 +24,7 @@ export const App = () => {
           <Route element={<NotFound />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   )
 }
