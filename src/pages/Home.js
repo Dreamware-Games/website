@@ -8,11 +8,13 @@ export const Home = () => {
 
     return (
         <>
-            <Container className='mt-5 center'>
-                <img
-                    src={logo}
-                    alt='Dreamware Games'
-                />
+            <Container className='mt-5 wrapper'>
+                <Container className='center'>
+                    <img
+                        src={logo}
+                        alt='Dreamware Games'
+                    />
+                </Container>
             </Container >
         </>
     )

@@ -8,7 +8,7 @@ import { faWrench } from '@fortawesome/free-solid-svg-icons'
 
 export const Games = () => {
     return (
-        <Container className='mt-2'>
+        <Container className='mt-2 wrapper'>
             <FontAwesomeIcon className='mr-2 ml-2' icon={faWrench} /> Working on it...
         </Container>
     )
