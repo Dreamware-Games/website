@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container } from 'react-bootstrap'
 
-import logo from '../assets/images/logo_black_512x200.png'
+import logo from '../assets/images/logos/logo_black_512x200.png'
 
 export const Home = () => {
 
@@ -10,10 +10,12 @@ export const Home = () => {
         <>
             <Container className='mt-5 wrapper'>
                 <Container className='center'>
-                    <img
-                        src={logo}
-                        alt='Dreamware Games'
-                    />
+                    <Container>
+                        <img
+                            src={logo}
+                            alt='Dreamware Games'
+                        />
+                    </Container>
                 </Container>
             </Container >
         </>
