@@ -32,7 +32,7 @@ const images = [
 export const Games = () => {
     return (
         <Container className='mt-2 wrapper'>
-            <ImageGallery items={images} />;
+            <ImageGallery items={images} />
         </Container>
     )
 }
