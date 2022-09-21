@@ -2,22 +2,10 @@ import React from 'react';
 
 import { Container } from 'react-bootstrap'
 
-import logo from '../assets/images/logos/logo_black_512x200.png'
-
 export const Home = () => {
-
     return (
-        <>
-            <Container className='mt-5 wrapper'>
-                <Container className='center'>
-                    <Container>
-                        <img
-                            src={logo}
-                            alt='Dreamware Games'
-                        />
-                    </Container>
-                </Container>
-            </Container >
-        </>
+        <Container className='mt-2 wrapper'>
+            <h1 className='mt-3 center'>Dreamware Games</h1>
+        </Container>
     )
 }

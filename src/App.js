@@ -12,7 +12,6 @@ import { MenuBar } from './components/Menubar'
 import { Footer } from './components/Footer'
 
 export const App = () => {
-
   return (
     <>
       <Router>
