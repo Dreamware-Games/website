@@ -1,8 +1,8 @@
 /* NAV BAR */
-.cstm-bg {
+.cstm-navbar {
     background-color: #9A2617; /* Darkest Ruby */
 }
 
-.nav-link .active {
+.nav-link {
     color: #fff !important;
 }
