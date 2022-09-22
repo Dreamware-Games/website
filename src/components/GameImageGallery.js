@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import ImageGallery from "react-image-gallery";
+import ImageGallery from 'react-image-gallery';
 
 import NinjaTheaMenu from "../assets/images/games/NinjaThea/0 - Main menu.png";
 import NinjaThea1 from "../assets/images/games/NinjaThea/5 - Stage 2.png";
@@ -26,8 +26,10 @@ const images = [
     },
 ];
 
-export const GameImageGallery = () => {
-    return (
-        <ImageGallery items={images} />
-    )
+class GameImageGallery extends React.Component {
+    render() {
+        return <ImageGallery items={images} />;
+    }
 }
+
+export default GameImageGallery;
