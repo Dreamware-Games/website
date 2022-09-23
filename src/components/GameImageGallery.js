@@ -1,5 +1,4 @@
 import React from 'react';
-
 import ImageGallery from 'react-image-gallery';
 
 import NinjaTheaMenu from "../assets/images/games/NinjaThea/0 - Main menu.png";
