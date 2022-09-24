@@ -7,8 +7,11 @@ import { faUnity } from '@fortawesome/free-brands-svg-icons'
 export const Home = () => {
     return (
         <Container className='mt-2 wrapper'>
-            <h2 className='mt-3 center'>Indie game developer</h2>
-            <Container className='mt-2 center'>
+            <Container className='mt-4 mb-3 center'>
+                <h1>Indie game development</h1>
+            </Container>
+            <hr />
+            <Container className='mt-5 center'>
                 We specialize in Unity, developing games for Steam, Xbox and Playstation.
             </Container>
             <Container className='mt-2 center'>

@@ -1,9 +1,15 @@
 import React from 'react';
 import { Row, Col, Button, Container, Form } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 export const Contact = () => {
     return (
         <Container className='mt-2 wrapper'>
+            <Container className='mt-4 mb-3 center'>
+                <h1><FontAwesomeIcon icon={faPaperPlane} />&nbsp;Contact</h1>
+            </Container>
+            <hr />
             <Row>
                 <Col className='mt-2 mb-2' md>
                     Feel free to get in touch with us.

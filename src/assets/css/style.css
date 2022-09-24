@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-
 body,
 html {
     font-family: "Roboto", sans-serif;
-    /*color: #fff;*/
-    background-color: #f6a8a8;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
 }
 
 .wrapper {
@@ -17,9 +19,7 @@ html {
     justify-content: center;
 }
 
-/*.btn-primary {
-    border: none;
-    --bs-btn-bg: #000;
-    --bs-btn-hover-bg: #888;
-    --bs-btn-active-bg: #555;
-}*/
+hr {
+    opacity: 1;
+    border-top: 2px solid #000;
+}
