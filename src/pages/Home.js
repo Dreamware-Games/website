@@ -13,10 +13,10 @@ export const Home = () => {
             </Container>
             <hr />
             <Row>
-                <Col className='mt-5 mb-2' md>
+                <Col className='mt-3 mb-2' md>
                     <GameImageGallery />
                 </Col>
-                <Col className='mt-5 mb-2' md>
+                <Col className='mt-3 mb-2' md>
                     <Container className='center'>
                         Games made with Unity for Steam, Xbox and Playstation.
                     </Container>
