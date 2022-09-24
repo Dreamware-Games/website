@@ -6,11 +6,11 @@ import { faSteam, faXbox, faPlaystation } from '@fortawesome/free-brands-svg-ico
 
 export const Platforms = () => {
     return (
-        <Container className='mt-2 wrapper center'>
+        <Container className='mt-2 center'>
             <Row>
-                <Col><FontAwesomeIcon size='3x' icon={faSteam} /></Col>
-                <Col><FontAwesomeIcon size='3x' icon={faXbox} /></Col>
-                <Col><FontAwesomeIcon size='3x' icon={faPlaystation} /></Col>
+                <Col><FontAwesomeIcon size='3x' icon={faSteam} title='Steam' /></Col>
+                <Col><FontAwesomeIcon size='3x' icon={faXbox} title='Xbox' /></Col>
+                <Col><FontAwesomeIcon size='3x' icon={faPlaystation} title='Playstation' /></Col>
             </Row>
         </Container>
     )

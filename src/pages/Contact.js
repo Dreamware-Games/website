@@ -5,8 +5,11 @@ export const Contact = () => {
     return (
         <Container className='mt-2 wrapper'>
             <Row>
-                <Col className='mt-2 mb-2' sm>Get in touch with me if you have any ideas or questions.</Col>
-                <Col sm>
+                <Col className='mt-2 mb-2' md>
+                    Feel free to get in touch with us.
+                    We would love to help realize your game idea or answer any questions you might have.
+                </Col>
+                <Col md>
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicName">
                             <Form.Label>Name</Form.Label>
@@ -26,7 +29,7 @@ export const Contact = () => {
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" placeholder="Enter message" rows={3} />
                         </Form.Group>
-                        <Button variant="primary" type="submit">
+                        <Button variant="dark" disabled type="submit">
                             Submit
                         </Button>
                     </Form>
