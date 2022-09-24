@@ -1,12 +1,27 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
 
+import DreamwareGames from "../assets/images/logos/Dreamware Games.png";
+import ArcadeClassicsMenu from "../assets/images/games/ArcadeClassics/Arcade Classics.png";
+import Asteroids from "../assets/images/games/ArcadeClassics/Asteroids.png";
 import NinjaTheaMenu from "../assets/images/games/NinjaThea/0 - Main menu.png";
 import NinjaThea1 from "../assets/images/games/NinjaThea/5 - Stage 2.png";
 import NinjaThea2 from "../assets/images/games/NinjaThea/6 - Stage 3.png";
-import NinjaThea3 from "../assets/images/games/NinjaThea/9 - End scene.png";
+
 
 const images = [
+    {
+        original: DreamwareGames,
+        thumbnail: DreamwareGames,
+    },
+    {
+        original: ArcadeClassicsMenu,
+        thumbnail: ArcadeClassicsMenu,
+    },
+    {
+        original: Asteroids,
+        thumbnail: Asteroids,
+    },
     {
         original: NinjaTheaMenu,
         thumbnail: NinjaTheaMenu,
@@ -19,15 +34,11 @@ const images = [
         original: NinjaThea2,
         thumbnail: NinjaThea2,
     },
-    {
-        original: NinjaThea3,
-        thumbnail: NinjaThea3,
-    },
 ];
 
 class GameImageGallery extends React.Component {
     render() {
-        return <ImageGallery items={images} />;
+        return <ImageGallery items={images} autoPlay={true} />;
     }
 }
 

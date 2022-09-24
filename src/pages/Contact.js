@@ -17,25 +17,25 @@ export const Contact = () => {
                 </Col>
                 <Col md>
                     <Form>
-                        <Form.Group className="mb-3" controlId="formBasicName">
+                        <Form.Group className='mb-3' controlId='formBasicName'>
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" placeholder="You name" />
-                            <Form.Text className="text-muted">
+                            <Form.Control type='text' placeholder='You name' />
+                            <Form.Text className='text-muted'>
                                 We'll never share your name with anyone else.
                             </Form.Text>
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Group className='mb-3' controlId='formBasicEmail'>
                             <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
-                            <Form.Text className="text-muted">
+                            <Form.Control type='email' placeholder='Enter email' />
+                            <Form.Text className='text-muted'>
                                 We'll never share your email with anyone else.
                             </Form.Text>
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicMessage">
+                        <Form.Group className='mb-3' controlId='formBasicMessage'>
                             <Form.Label>Message</Form.Label>
-                            <Form.Control as="textarea" placeholder="Enter message" rows={3} />
+                            <Form.Control as='textarea' placeholder='Enter message' rows={3} />
                         </Form.Group>
-                        <Button variant="dark" disabled type="submit">
+                        <Button variant='dark' disabled type='submit'>
                             Submit
                         </Button>
                     </Form>

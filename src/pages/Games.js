@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'react-bootstrap'
-import GameImageGallery from '../components/GameImageGallery'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGamepad } from '@fortawesome/free-solid-svg-icons'
 
@@ -11,7 +10,6 @@ export const Games = () => {
                 <h1><FontAwesomeIcon icon={faGamepad} />&nbsp;Games</h1>
             </Container>
             <hr />
-            <GameImageGallery />
         </Container>
     )
 }

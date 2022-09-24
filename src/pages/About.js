@@ -10,7 +10,12 @@ export const About = () => {
                 <h1><FontAwesomeIcon icon={faCircleInfo} />&nbsp;About</h1>
             </Container>
             <hr />
-            One man indie game development company.
+            <Container>
+                A small indie game development company, located in Oslo, Norway.
+            </Container>
+            <Container>
+                Esablished Aug. 2022.
+            </Container>
         </Container>
     )
 }

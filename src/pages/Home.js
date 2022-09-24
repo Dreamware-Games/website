@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
+import GameImageGallery from '../components/GameImageGallery'
 import { Platforms } from '../components/Platforms';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUnity } from '@fortawesome/free-brands-svg-icons'
@@ -11,15 +12,22 @@ export const Home = () => {
                 <h1>Indie game development</h1>
             </Container>
             <hr />
-            <Container className='mt-5 center'>
-                We specialize in Unity, developing games for Steam, Xbox and Playstation.
-            </Container>
-            <Container className='mt-2 center'>
-                <FontAwesomeIcon size='3x' icon={faUnity} title='Unity' />
-            </Container>
-            <Container className='mt-2 center'>
-                <Platforms />
-            </Container>
+            <Row>
+                <Col className='mt-5 mb-2' md>
+                    <GameImageGallery />
+                </Col>
+                <Col className='mt-5 mb-2' md>
+                    <Container className='center'>
+                        Games made with Unity for Steam, Xbox and Playstation.
+                    </Container>
+                    <Container className='mt-2 center'>
+                        <FontAwesomeIcon size='3x' icon={faUnity} title='Unity' />
+                    </Container>
+                    <Container className='mt-2 center'>
+                        <Platforms />
+                    </Container>
+                </Col>
+            </Row>
         </Container>
     )
 }
