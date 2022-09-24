@@ -16,3 +16,10 @@ html {
     display: flex;
     justify-content: center;
 }
+
+.btn-primary {
+    border: none;
+    --bs-btn-bg: #000;
+    --bs-btn-hover-bg: #888;
+    --bs-btn-active-bg: #555;
+}
