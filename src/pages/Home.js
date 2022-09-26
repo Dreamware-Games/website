@@ -18,13 +18,13 @@ export const Home = () => {
                 </Col>
                 <Col className='mt-3 mb-2' md>
                     <Container className='center'>
-                        Games made with Unity for Steam, Xbox and Playstation.
-                    </Container>
-                    <Container className='mt-2 center'>
-                        <FontAwesomeIcon size='3x' icon={faUnity} title='Unity' />
+                        Games made for Steam, Xbox and Playstation.
                     </Container>
                     <Container className='mt-2 center'>
                         <Platforms />
+                    </Container>
+                    <Container className='mt-2 center'>
+                        <FontAwesomeIcon size='3x' icon={faUnity} title='Unity' />
                     </Container>
                 </Col>
             </Row>
