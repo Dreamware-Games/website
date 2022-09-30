@@ -1,7 +1,6 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
 
-import DreamwareGames from "../assets/images/logos/Dreamware Games.png";
 import ArcadeClassicsMenu from "../assets/images/games/ArcadeClassics/Arcade Classics.png";
 import Asteroids from "../assets/images/games/ArcadeClassics/Asteroids.png";
 import Asteroids2 from "../assets/images/games/ArcadeClassics/Asteroids 2.png";
@@ -11,10 +10,6 @@ import NinjaThea2 from "../assets/images/games/NinjaThea/6 - Stage 3.png";
 
 
 const images = [
-    {
-        original: DreamwareGames,
-        thumbnail: DreamwareGames,
-    },
     {
         original: ArcadeClassicsMenu,
         thumbnail: ArcadeClassicsMenu,
