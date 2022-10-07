@@ -6,11 +6,13 @@ import emailjs from 'emailjs-com'
 
 export const Contact = () => {
 
+    const [processingSubmit, setProcessingSubmit] = useState(false)
     const [submitMessage, setSubmitMessage] = useState('');
 
     const form = useRef();
 
     const sendEmail = (e) => {
+        setProcessingSubmit(true)
         e.preventDefault()
         emailjs.sendForm('service_pn2j8zp', 'template_93f31ew', form.current, 'POSvSMWxvYWAOR8V2')
             .then((result) => {
@@ -20,6 +22,7 @@ export const Contact = () => {
             }, (error) => {
                 console.log(error.text)
             })
+        setProcessingSubmit(false)
     }
 
     return (
@@ -53,7 +56,7 @@ export const Contact = () => {
                             <Form.Label>Message</Form.Label>
                             <Form.Control required name='message' as='textarea' placeholder='Enter message' rows={3} />
                         </Form.Group>
-                        <Button className='mb-2' variant='dark' type='submit'>
+                        <Button className='mb-2' variant='dark' type='submit' disabled={processingSubmit}>
                             Submit
                         </Button>
                         <Form.Group className='mb-3' controlId='formBasicMessage'>
