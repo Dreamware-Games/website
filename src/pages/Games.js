@@ -19,7 +19,7 @@ export const Games = () => {
                 </Col>
                 <Col className='mt-3 mb-2' md>
                     <Container className='center'>
-                        Games available on Steam, Xbox and Playstation.
+                        Games coming to Steam, Xbox and Playstation.
                     </Container>
                     <Container className='mt-2 center'>
                         <Platforms />
