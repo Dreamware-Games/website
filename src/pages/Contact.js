@@ -33,8 +33,7 @@ export const Contact = () => {
             <hr />
             <Row>
                 <Col className='mt-2 mb-2' md>
-                    Feel free to get in touch with us.
-                    We would love to help realize your game idea or answer any questions you might have.
+                    Feel free to get in touch with any questions or ideas you might have.
                 </Col>
                 <Col md>
                     <Form ref={form} onSubmit={sendEmail}>
