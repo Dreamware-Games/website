@@ -20,7 +20,7 @@ export const Games = () => {
                         <h2>Project Icarus</h2>
                         <p>
                             <i>
-                                2D co-op platformer with one configurable controls to support gameplay
+                                2D co-op platformer with configurable controls to support gameplay
                                 with any type of adaptive controllers.
                             </i>
                         </p>
@@ -33,11 +33,11 @@ export const Games = () => {
                         <h2>Project Needle</h2>
                         <p>
                             <i>
-                                3D neon racer based on a beloved character in the gaming world.
+                                3D neon racer based on a beloved character from the gaming world.
                             </i>
                         </p>
                         <p>
-                            Race against uncomromising enemies looking to destroy you in your quest to save the world
+                            Race against uncompromising enemies looking to destroy you in your quest to save the world
                             from evil robot masters.
                         </p>
                     </Container>
