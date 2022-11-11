@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Button, Container, Row, Col } from 'react-bootstrap'
 
 export const Home = () => {
     return (
@@ -10,8 +10,20 @@ export const Home = () => {
             <hr />
             <Row className='intro'>
                 <Col className='mt-2 mb-2' md>
-                    Recently founded (Aug. 2022), currently one man indie game development company with a simple ambition:
+                    An indie game development company, founded August 2022, with a simple ambition:
                     Making accessible games that everyone can play, irregardless of any disability or impairment!
+                </Col>
+                <Col className='mt-2 mb-2' md>
+                    Check out our ongoing projects and get in touch if you have any questions
+                    or an idea for a game you would like to develop or publish.
+                    <Container className='mt-4'>
+                        <Button className='m-2' href='/games' variant='dark'>
+                            Games
+                        </Button>
+                        <Button href='/contact' variant='dark'>
+                            Contact
+                        </Button>
+                    </Container>
                 </Col>
             </Row>
         </Container>

@@ -24,8 +24,8 @@ export const App = () => {
           <Route exact path='/contact' element={<Contact />} />
           <Route path='/*' element={<NotFound />} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </>
   )
 }
