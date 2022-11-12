@@ -17,6 +17,9 @@ export const Games = () => {
                 <Col className='mt-3 mb-2' md>
                     {/*<GameImageGallery />*/}
                     <Container className='mb-4'>
+                        We are working on multiple projects, all currently in the planning/prototyping phase.
+                    </Container>
+                    <Container className='mb-4'>
                         <h2>Project Icarus</h2>
                         <p>
                             <i>
@@ -27,6 +30,11 @@ export const Games = () => {
                         <p>
                             Follow the adventures of two siblings, as they traverse dark forrests, vulcanic mountains and
                             ruinous cities in search of their father.
+                        </p>
+                        <p>
+                            <i>
+                                Expected release Q3 2023
+                            </i>
                         </p>
                     </Container>
                     <Container className='mb-4'>
@@ -39,6 +47,11 @@ export const Games = () => {
                         <p>
                             Race against uncompromising enemies looking to destroy you in your quest to save the world
                             from evil robot masters.
+                        </p>
+                        <p>
+                            <i>
+                                Expected release Q4 2024
+                            </i>
                         </p>
                     </Container>
                 </Col>
