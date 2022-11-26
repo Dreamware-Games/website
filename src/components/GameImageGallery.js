@@ -36,6 +36,7 @@ const images = [
     },
 ];
 
+// TODO Fix this class nonsense
 class GameImageGallery extends React.Component {
     render() {
         return <ImageGallery items={images} autoPlay={true} />;
