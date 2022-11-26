@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap'
 //import GameImageGallery from '../components/GameImageGallery'
-import { GameInfo } from '../components/GameInfo'
+import { GameInfo } from '../components/gameinfo/GameInfo'
 import { Platforms } from '../components/Platforms';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGamepad } from '@fortawesome/free-solid-svg-icons'
