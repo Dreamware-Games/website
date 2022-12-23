@@ -5,6 +5,7 @@ import { faGamepad } from '@fortawesome/free-solid-svg-icons'
 
 import { ArcadeClassics } from './ArcadeClassics'
 
+
 export const GameInfo = ({ gameId }) => {
 
     function DisplayGameInfo() {

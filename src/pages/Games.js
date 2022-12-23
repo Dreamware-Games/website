@@ -1,6 +1,6 @@
 import React from 'react';
-import { useParams } from "react-router-dom";
-import { Container, Row, Col } from 'react-bootstrap'
+import { Link, useParams } from "react-router-dom";
+import { Button, Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGamepad } from '@fortawesome/free-solid-svg-icons'
 import { faUnity } from '@fortawesome/free-brands-svg-icons'
@@ -34,9 +34,19 @@ export const Games = () => {
                     <Col className='mt-3 mb-2' md>
                         {/*<GameImageGallery />*/}
                         <Container className='mb-4'>
-                            We are working on multiple projects, all currently in the planning/prototyping phase.
+                            <p>
+                                We are working on multiple projects, all currently in the planning/prototyping phase.
+                            </p>
+                            <p>
+                                Check back for more details soon or contact us.
+                            </p>
+                            <p>
+                                <Button as={Link} to='/contact' variant='dark'>
+                                    Contact
+                                </Button>
+                            </p>
                         </Container>
-                        <Container className='mb-4'>
+                        {/*<Container className='mb-4'>
                             <h2>Project Icarus</h2>
                             <p>
                                 <i>
@@ -70,7 +80,7 @@ export const Games = () => {
                                     Expected release Q4 2024
                                 </i>
                             </p>
-                        </Container>
+                        </Container>*/}
                     </Col>
                     <Col className='mt-3 mb-2' md>
                         <Container className='center'>

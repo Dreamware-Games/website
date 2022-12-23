@@ -10,10 +10,10 @@ export const MenuBar = () => {
     return (
         <Navbar className='cstm-navbar' expand="lg" variant='dark'>
             <Container>
-                <Navbar.Brand as={Link} to='/'>Dreamware Games™</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/' className='cstm-navbar-home'>Dreamware Games™</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="ml-auto">
                         <Nav.Link as={Link} to='/games'><FontAwesomeIcon icon={faGamepad} />&nbsp;Games</Nav.Link>
                         <Nav.Link as={Link} to='/about'><FontAwesomeIcon icon={faCircleInfo} />&nbsp;About</Nav.Link>
                         <Nav.Link as={Link} to='/contact'><FontAwesomeIcon icon={faPaperPlane} />&nbsp;Contact</Nav.Link>

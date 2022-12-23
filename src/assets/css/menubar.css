@@ -1,6 +1,12 @@
 /* NAV BAR */
 .cstm-navbar {
     background-color: #000;
+    font-size: larger;
+}
+
+.cstm-navbar-home {
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .navbar-dark .navbar-nav .nav-item > a {
