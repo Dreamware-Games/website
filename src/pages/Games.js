@@ -1,12 +1,15 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap'
-//import GameImageGallery from '../components/GameImageGallery'
-import { GameInfo } from '../components/gameinfo/GameInfo'
-import { Platforms } from '../components/Platforms';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGamepad } from '@fortawesome/free-solid-svg-icons'
 import { faUnity } from '@fortawesome/free-brands-svg-icons'
+
+//import GameImageGallery from '../components/GameImageGallery'
+import { GameInfo } from '../components/gameinfo/GameInfo'
+import { Platforms } from '../components/Platforms';
+import { Separator } from '../components/common/Separator';
+
 
 export const Games = () => {
 
@@ -26,7 +29,7 @@ export const Games = () => {
                 <Container className='mt-4 mb-3 center'>
                     <h1><FontAwesomeIcon icon={faGamepad} />&nbsp;Games</h1>
                 </Container>
-                <hr />
+                <Separator />
                 <Row>
                     <Col className='mt-3 mb-2' md>
                         {/*<GameImageGallery />*/}

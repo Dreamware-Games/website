@@ -1,13 +1,16 @@
 import React from 'react';
 import { Button, Container, Row, Col } from 'react-bootstrap'
 
+import { Separator } from '../components/common/Separator';
+
+
 export const Home = () => {
     return (
         <Container className='mt-2 wrapper'>
             <Container className='mt-4 mb-3 center'>
                 <h1>Games for everyone!</h1>
             </Container>
-            <hr />
+            <Separator />
             <Row className='intro'>
                 <Col className='mt-2 mb-2' md>
                     An indie game development company, founded August 2022, with a simple ambition:

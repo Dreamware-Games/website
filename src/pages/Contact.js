@@ -1,8 +1,12 @@
 import React, { useRef, useState } from 'react';
 import { Row, Col, Button, Container, Form } from 'react-bootstrap';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import emailjs from 'emailjs-com'
+
+import { Separator } from '../components/common/Separator';
+
 
 export const Contact = () => {
 
@@ -30,7 +34,7 @@ export const Contact = () => {
             <Container className='mt-4 mb-3 center'>
                 <h1><FontAwesomeIcon icon={faPaperPlane} />&nbsp;Contact</h1>
             </Container>
-            <hr />
+            <Separator />
             <Row>
                 <Col className='mt-2 mb-2' md>
                     Feel free to get in touch with any questions or ideas you might have.
