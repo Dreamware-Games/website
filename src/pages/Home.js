@@ -14,8 +14,8 @@ export const Home = () => {
             <Separator />
             <Row className='intro'>
                 <Col className='mt-2 mb-2' md>
-                    An indie game development company, founded August 2022, with a simple ambition:
-                    Making accessible games that everyone can play, irregardless of any disability or impairment!
+                    Indie game development with a simple ambition:
+                    <br /><span className="intro-header">Games for everyone!</span>
                 </Col>
                 <Col className='mt-2 mb-2' md>
                     Check out our ongoing projects and get in touch if you have any questions

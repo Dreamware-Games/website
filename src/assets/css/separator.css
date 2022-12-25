@@ -1,9 +1,5 @@
 .separator {
-  background-image: linear-gradient(
-    to right top,
-    #874feb,
-    #00acfd
-  );
+  background-image: linear-gradient(to right top, #874feb, #00acfd);
   height: 6px;
   width: 45%;
   border-radius: 6px;

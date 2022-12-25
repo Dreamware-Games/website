@@ -33,3 +33,21 @@ hr {
     --bs-btn-hover-bg: #000;
     --bs-btn-hover-color: #ffb655;
 }
+
+.hero-container {
+    background-image: linear-gradient(to right top, #874feb, #00acfd);
+    min-height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    border-bottom-style: dotted;
+    border-width: 1px;
+}
+
+.intro-header {
+    color: #0000ff;
+    font-size: 32px;
+}
