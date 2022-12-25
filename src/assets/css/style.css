@@ -35,19 +35,17 @@ hr {
 }
 
 .hero-container {
-    background-image: linear-gradient(to right top, #874feb, #00acfd);
-    min-height: 55vh;
+    background-image: linear-gradient(to right top, #DCE6EB, #C8D2DC);
+    min-height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     object-fit: contain;
-    border-bottom-style: dotted;
-    border-width: 1px;
 }
 
 .intro-header {
-    color: #0000ff;
+    color: #586ff1;
     font-size: 32px;
 }
