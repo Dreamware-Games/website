@@ -9,4 +9,8 @@
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }

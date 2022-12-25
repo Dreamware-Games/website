@@ -6,9 +6,15 @@
 
 .cstm-navbar-home {
     font-weight: bolder;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
-.navbar-dark .navbar-nav .nav-item > a {
-    color: #fff;
+.nav-link {
+    color: #ffe477;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link:active {
+    color: #ffb655;
 }

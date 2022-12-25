@@ -13,7 +13,7 @@ export const MenuBar = () => {
     return (
         <Navbar expanded={expanded} className='cstm-navbar' expand="lg" variant='dark'>
             <Container>
-                <Navbar.Brand as={Link} to='/' onClick={() => setExpanded(false)} className='cstm-navbar-home'>Dreamware Games™</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/' onClick={() => setExpanded(false)} className='cstm-navbar-home'>Dreamware Games</Navbar.Brand>
                 <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='mr-auto navlink'>
