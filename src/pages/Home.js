@@ -17,11 +17,11 @@ export const Home = () => {
             <div className='hero-container'>
                 <Container>
                     <Row>
-                        <Col className='mt-5' md>
+                        <Col className='hero-container-column' md>
                             Indie game development with a simple ambition:
                             <br /><span className="hero-container-header">Games for everyone!</span>
                         </Col>
-                        <Col className='mb-2 hero-container-image' md>
+                        <Col className='hero-container-column' md>
                             <Image src={hero_image} />
                         </Col>
                     </Row>
