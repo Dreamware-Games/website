@@ -61,7 +61,9 @@ hr {
 }
 
 .hero-container-column img {
-    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .hero-container-social-contact {
@@ -86,8 +88,5 @@ hr {
     }
     .hero-container-header {
         font-size: 28px;
-    }
-    .hero-container-column img {
-        width: 450px;
     }
 }
