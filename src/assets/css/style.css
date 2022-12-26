@@ -80,6 +80,9 @@ hr {
 }
 
 @media only screen and (max-width: 720px) {
+    .hero-container-header {
+        font-size: 28px;
+    }
     .hero-container-image img {
         width: 450px;
     }
