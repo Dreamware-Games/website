@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Col, Row } from 'react-bootstrap'
+import { Button, Container, Col, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUnity } from '@fortawesome/free-brands-svg-icons'
@@ -8,7 +8,7 @@ import { Platforms } from '../components/Platforms';
 import { SocialContact } from '../components/SocialContact'
 import { Separator } from '../components/common/Separator';
 
-//import logo_white from '../assets/images/logos/DW (icons) white centered.png'
+import hero_image from '../assets/images/Accessibility.png'
 
 
 export const Home = () => {
@@ -17,12 +17,12 @@ export const Home = () => {
             <div className='hero-container'>
                 <Container>
                     <Row>
-                        <Col md>
+                        <Col className='mt-5' md>
                             Indie game development with a simple ambition:
                             <br /><span className="hero-container-header">Games for everyone!</span>
                         </Col>
-                        <Col className='hero-container-logo' md>
-                            {/*<Image src={logo_white} width='256' />*/}
+                        <Col className='mb-2 hero-container-image' md>
+                            <Image src={hero_image} />
                         </Col>
                     </Row>
                 </Container>

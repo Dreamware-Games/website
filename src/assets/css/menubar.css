@@ -18,3 +18,9 @@
 .nav-link:active {
     color: #ffb655;
 }
+
+@media only screen and (max-width: 720px) {
+    .cstm-navbar-home {
+        font-size: x-large;
+    }
+}
