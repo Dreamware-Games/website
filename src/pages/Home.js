@@ -18,8 +18,8 @@ export const Home = () => {
                             Indie game development with a simple ambition:
                             <br /><span className="hero-container-header">Games for everyone!</span>
                         </Col>
-                        <Col md>
-
+                        <Col className='hero-container-logo' md>
+                            [LOGO]
                         </Col>
                     </Row>
                 </Container>

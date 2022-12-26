@@ -30,11 +30,11 @@ hr {
 
 .btn-dark {
     --bs-btn-bg: #000;
-    --bs-btn-color: #FFE477;
+    --bs-btn-color: #ffe477;
     --bs-btn-hover-bg: #000;
-    --bs-btn-hover-color: #FFB655;
+    --bs-btn-hover-color: #ffb655;
     --bs-btn-active-bg: #000;
-    --bs-btn-active-color: #FFB655;
+    --bs-btn-active-color: #ffb655;
 }
 
 .hero-container {
@@ -51,4 +51,10 @@ hr {
 .hero-container-header {
     color: #006468;
     font-size: 32px;
+}
+
+.hero-container-logo {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
 }
