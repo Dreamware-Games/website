@@ -45,6 +45,7 @@ hr {
     justify-content: center;
     align-items: center;
     object-fit: contain;
+    position: relative;
 }
 
 .hero-container-header {
@@ -58,10 +59,18 @@ hr {
     padding: 2em;
 }
 
+.hero-container-social-contact {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 1em;
+}
+
 .cstm-link {
-    color: #00969B;
-  }
-  
-  .cstm-link:hover {
+    color: #00969b;
+}
+
+.cstm-link:hover {
     color: #006468;
-  }
+}

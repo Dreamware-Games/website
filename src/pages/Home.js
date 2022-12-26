@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Row, Col } from 'react-bootstrap'
+import { Button, Container, Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUnity } from '@fortawesome/free-brands-svg-icons'
@@ -7,6 +7,8 @@ import { faUnity } from '@fortawesome/free-brands-svg-icons'
 import { Platforms } from '../components/Platforms';
 import { SocialContact } from '../components/SocialContact'
 import { Separator } from '../components/common/Separator';
+
+//import logo_white from '../assets/images/logos/DW (icons) white centered.png'
 
 
 export const Home = () => {
@@ -20,11 +22,13 @@ export const Home = () => {
                             <br /><span className="hero-container-header">Games for everyone!</span>
                         </Col>
                         <Col className='hero-container-logo' md>
-                            [LOGO]
+                            {/*<Image src={logo_white} width='256' />*/}
                         </Col>
                     </Row>
                 </Container>
-                <SocialContact />
+                <div className='hero-container-social-contact'>
+                    <SocialContact />
+                </div>
             </div>
             <Container className='mt-5 wrapper'>
                 <Row>
