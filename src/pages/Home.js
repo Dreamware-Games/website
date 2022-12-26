@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUnity } from '@fortawesome/free-brands-svg-icons'
 
 import { Platforms } from '../components/Platforms';
+import { SocialContact } from '../components/SocialContact'
 import { Separator } from '../components/common/Separator';
 
 
@@ -23,6 +24,7 @@ export const Home = () => {
                         </Col>
                     </Row>
                 </Container>
+                <SocialContact />
             </div>
             <Container className='mt-5 wrapper'>
                 <Row>

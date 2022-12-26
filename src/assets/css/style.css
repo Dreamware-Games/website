@@ -15,7 +15,6 @@ h3 {
 
 .wrapper {
     min-height: 30em;
-    padding-bottom: 60px;
 }
 
 .center {
@@ -58,3 +57,11 @@ hr {
     justify-content: center;
     padding: 2em;
 }
+
+.cstm-link {
+    color: #00969B;
+  }
+  
+  .cstm-link:hover {
+    color: #006468;
+  }
