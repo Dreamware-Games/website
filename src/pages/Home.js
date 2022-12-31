@@ -1,8 +1,6 @@
 import React from 'react';
 import { Button, Container, Col, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUnity } from '@fortawesome/free-brands-svg-icons'
 
 import { Platforms } from '../components/Platforms';
 import { SocialContact } from '../components/SocialContact'
@@ -33,7 +31,7 @@ export const Home = () => {
             <Container className='mt-5 wrapper'>
                 <Row>
                     <Col className='mt-3 mb-2' md>
-                        Game images coming!
+                        <i>Game images coming!</i>
                     </Col>
                 </Row>
                 <Separator />
@@ -54,12 +52,6 @@ export const Home = () => {
                 <Separator />
                 <Row>
                     <Col className='mt-3 mb-2' md>
-                        <Container className='center'>
-                            Made with Unity.
-                        </Container>
-                        <Container className='mb-3 mt-2 center'>
-                            <FontAwesomeIcon size='3x' icon={faUnity} title='Unity' />
-                        </Container>
                         <Container className='center'>
                             For Steam, Xbox and Playstation.
                         </Container>
