@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 
 export const SocialContact = () => {
@@ -15,6 +15,10 @@ export const SocialContact = () => {
                     &nbsp;&nbsp;&nbsp;
                     <a className='cstm-link' href='https://www.linkedin.com/company/dreamware-games/' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon size='2x' icon={faLinkedin} title='LinkedIn' />
+                    </a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a className='cstm-link' href='https://www.youtube.com/@dreamwaregames' target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon size='2x' icon={faYoutube} title='Youtube' />
                     </a>
                 </Col>
             </Row>
